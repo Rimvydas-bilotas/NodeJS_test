@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+  <script src="register.js" defer></script>
+  <title>Register</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Main</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+      <a href="groups.html">Groups</a>
+    </nav>
+  </header>
+  <main>
+    <div class="form-div">
+      <h1>Register</h1>
+      <form id="register-form">
+        <label for="fullname">Fullname</label>
+        <input type="text" minlength="1" id="fullname" name="fullname">
+        <label for="email">Email</label>
+        <input type="email" minlength="1" id="email" name="email">
+        <label for="password1">Password</label>
+        <input type="password" minlength="1" id="password1" name="password1">
+        <label for="password1">Repeat Password</label>
+        <input type="password" minlength="1" id="password2" name="password2">
+        <button type="submit">Register</button>
+      </form>
+      <h3 id="message"></h3>
+    </div>
+  </main>
+</body>
+
+</html>
