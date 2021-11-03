@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+/>
+  <script src="groups.js" defer></script>
+  <title>Groups</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Main</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+      <a href="groups.html">Groups</a>
+    </nav>
+  </header>
+  <main>
+    <div class="center">
+      <h2>Select Your Group</h2>
+    </div>
+    <div id="groups">
+
+    </div>
+    <div class="form-div">
+      <div>
+        <form id="add-group">
+          <h2>Add Group</h2>
+          <label for="group-number">Group ID:</label>
+          <input type="number" id="group-number" name="group-number" min="1">
+          <button type="submit">Add</button>
+        </form>
+      </div>
+      <h3 id="message"></h3>
+    </div>
+  </main>
+</body>
+
+</html>
